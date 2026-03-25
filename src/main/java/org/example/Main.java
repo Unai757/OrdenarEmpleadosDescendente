@@ -11,7 +11,7 @@ public class Main {
             System.out.println("Conectado con suceso!");
 
 
-            //Creamos la sentencia sql que es para ordenar los empleados por su salario de forma descedente
+            //Creamos la sentencia sql que es para ordenar los empleados por su salario de forma descendente
             String sql = "SELECT NOMBRE, SALARIO FROM EMPLEADO" +
                     " ORDER BY SALARIO DESC ";
             //La ejecutamos
